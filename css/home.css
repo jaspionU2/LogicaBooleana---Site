@@ -1,0 +1,76 @@
+ main {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     margin: 6rem 3rem 2rem 3rem;
+     position: relative;
+     height: 70vh;
+ }
+
+ .description {
+     display: flex;
+     flex-direction: column;
+     gap: 2.5rem;
+     margin-bottom: 2rem;
+     padding: 0rem 1rem;
+ }
+
+
+ .img-principal>img {
+     max-width: 100%;
+     border-radius: 20rem;
+ }
+
+ .description h1 {
+     font-family: "Cinzel", serif;
+     font-weight: 700;
+     font-style: normal;
+ }
+
+ .description p {
+     font-weight: 500;
+     font-size: 20px;
+     padding-right: 22rem;
+     word-break: break-word;
+ }
+
+ .description hr{
+    width: 30rem;
+ }
+
+ .img-main-background {
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     z-index: -1;
+ }
+
+ .img-main-background picture {
+     position: relative;
+ }
+
+ .img-main-background img {
+     width: 46rem;
+     clip-path: polygon(50% 0%, 50% 0%, 60% 100%, 20% 60%);
+     z-index: -1;
+     transform: rotate(54deg);
+     position: absolute;
+     top: -90px;
+     left: -210px;
+     opacity: 0.4;
+ }
+
+ footer{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-color: #3f3f3f;
+    height: 30px;
+    justify-content: center;
+    padding-bottom: 5px;
+ }
+
+ #rodape p {
+     font-family: "Caveat", sans-serif;
+     font-weight: 700;
+ }

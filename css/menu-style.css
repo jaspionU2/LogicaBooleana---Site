@@ -1,0 +1,58 @@
+#container nav {
+    max-width: 1365px;
+    max-height: 30px;
+    margin: auto;
+    padding: 1.6rem 8rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(146, 133, 133)
+}
+
+#container nav:hover {
+    color: #fff;
+    transform: scale(1.05);
+    transition: .2s;
+
+}
+
+.menu a:hover {
+    color: #000000;
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+.menu {
+    display: flex;
+    gap: 6rem;
+    width: 100vw;
+    height: 70px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.menu li {
+    font-family: "cinzel", sans-serif;
+    font-weight: 700;
+}
+
+
+
+.github {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+    align-items: center;
+
+    font-family: "cinzel", sans-serif;
+    font-weight: 700;
+}
+
+.github img {
+    width: 3rem;
+    max-height: 3rem;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/page-trabalho.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/menu-style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <nav>
+                <ul class="menu">
+                    <li><a href="../index.html" target="_self">home</a></li>
+                    <li><a href="../page-content-html/page-george.html" target="_self">george</a></li>
+                    <li><a href="page-trabalho.html" target="_self">trabalho</a></li>
+                    <li><a href="../page-content-html/page-importancia.html" target="_self">importancia</a></li>
+                    <li><a href="../page-content-html/page-vide.html" target="_self">vida</a></li>
+                </ul>
+                <div class="github">
+                    <img src="../img/git-icon.svg" alt="">
+                    <a href="https://github.com/jaspionU2/Estudo-Dirigido.git" target="_blank" rel="external">github</a>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <header class="hero-section">
+                    <div class="hexagono"></div>
+                    <h2>Desvendando a Álgebra Booleana</h2>
+                    <p>Um Mergulho nas Operações Fundamentais</p>
+                </header>
+            </section>
+
+            <section class="video-content">
+                <div class="video">
+                    <iframe width="660" height="345" src="https://www.youtube.com/embed/AvkzMOpmxgY?si=MhSTjdgGHggD0K9M"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p>O link para o video esta aqui: <a id="reference" href="https://www.youtube.com/watch?v=AvkzMOpmxgY&t=3s "target="_blank" rel="external">clique para ser reencaminhado</a></p>
+                </div>
+                <div class="sumario-video">
+                    <h3>Resumo do conteúdo</h3>
+                    <p>Valores logicos: V -> 1 e F -> 0 <br> <br> <br> Operadores: + (OR) / . (AND) / ` - (NOT) <br>
+                        <br> <br>
+                        Axiomas: <br> [x + 0=0] [x + 1=1] [x + x=0] <br> [x . 1=x] [x . 0 =0] [x . x=x] <br> [x +`x] [x
+                        .`x=0] [``x = x] <br> <br> <br>Outras propiedades: <br> [x + y = y + x] - comutativa <br> [x +
+                        (y+z)
+                        = (x+y) + z] - associativa <br> [x . (y+z) = (x+y).(x+z)] / [x + (y.z) = (x.y)+(x.z)] -
+                        distributiva <br> (x+y)´ = (x´.y´) / (x.y)´ = (x´+ y´) De Morgan <br> <br> <br> Exemplo: <br> (A
+                        . B)
+                        + (A . B´) + (A´ . B) = A . (B + B´) + (A´ . B´) = A . 1 + (A´ . B) <br> = A + (A´ . B) = (A +
+                        A´) . (A + B) = 1 . (A + B) = A + B</p>
+                </div>
+            </section>
+
+            <section class="algebra-content">
+                <div class="algebra-content1">
+                    <p>O operador OR retorna verdadeiro se pelo menos um dos operandos for verdadeiro. Em termos de
+                        conjuntos, corresponde à união. A expressão A OR B é verdadeira se A ou B (ou ambos) forem
+                        verdadeiros. <br>
+                        Cenário: Você está planejando uma viagem de férias e precisa escolher o meio de transporte. <br>
+                        Opções: Avião, Carro. <br>Preferências:Você prefere um meio de transporte rápido OR barato.
+                        <br>Conclusão:
+                        Com a preferência por um meio de transporte rápido OR barato, ambas as opções (avião e carro)
+                        são viáveis. A escolha final dependerá de outros fatores, como orçamento disponível, distância
+                        da viagem e tempo disponível.
+                    </p>
+                    <img src="../img/algebraBoole1.jpeg" alt="">
+                </div>
+                <div class="algebra-content2">
+                    <p>O operador NOT inverte o valor de verdade do operando. Se A for verdadeiro, então NOT A é falso,
+                        e vice-versa. Exemplo do operador OR: <br> Cenário: Você está arrumando sua mochila para a
+                        escola.<br>
+                        Regra: Você não pode levar brinquedos para a escola (NOT brinquedos).<br>
+                        Itens disponíveis: Livro de matemática, Lancheira, Boneco de ação, estojo.<br>Conclusão: Com a
+                        regra NOT, você pode levar o livro de matemática, a lancheira e o estojo para a escola. O boneco
+                        de ação deve ficar em casa. </p>
+                    <img src="../img/algebraBoole2.jpeg" alt="">
+                </div>
+                <div class="algebra-content3">
+                    <p>O operador AND retorna verdadeiro se ambos os operandos forem verdadeiros. Em termos de
+                        conjuntos, corresponde à interseção. A expressão A AND B é verdadeira somente se A e B forem
+                        verdadeiros. Exemplo do operador AND: <br>
+                        Cenário: Uma biblioteca permite que os usuários emprestem livros se atenderem a duas condições:
+                        Possuir um cartão da biblioteca válido.
+                        Não ter nenhum livro atrasado. <br>
+                        Uso do operador AND: <br>
+                        'Para que um usuário possa emprestar um livro, ambas as condições devem ser verdadeiras'</p>
+                    <img src="../img/algebraBoole3.jpeg" alt="">
+                </div>
+            </section>
+
+        </main>
+        <footer id="rodape">
+            <p>Copyright &lt;UNIME/&gt; 2024</p>
+        </footer>
+    </div>
+</body>
+
+</html>
