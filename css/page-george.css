@@ -59,6 +59,7 @@
     margin-bottom: initial;
 }
 
+
 .hero-content #text-content {
     margin: 50px 0px 20px 0px;
     padding: 5px 5px;
@@ -179,8 +180,9 @@
 
 
 .content-card {
-    height: 190px;
-    overflow: hidden;
+    height: 200px;
+    overflow-y: scroll;
+    /* overflow: hidden; */
     position: relative;
     padding: 20px;
 }
@@ -231,13 +233,26 @@
     display: flex;
     flex-direction: column;
     width: 360px;
-    height: min-content;
+    max-height: 500px;
+    /* height: min-content; */
     border-style: solid;
     border-color: rgb(147, 241, 23);
     border-width: 1px;
     background-color: #3f3f3f;
     text-align: justify;
     color: #000;
+}
+
+.content-card::-webkit-scrollbar {
+    width: 8px;
+    height: 100%;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+}
+
+.content-card::-webkit-scrollbar-thumb {
+    background-color: #ffa34d;
+    border-radius: 6px;
 }
 
 .george-cardBox.active .content-card {
