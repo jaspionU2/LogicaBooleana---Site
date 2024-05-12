@@ -1,5 +1,5 @@
 #container nav {
-    max-width: 1365px;
+    max-width:100%;
     max-height: 30px;
     margin: auto;
     padding: 1.6rem 8rem;
@@ -15,7 +15,6 @@
     color: #fff;
     transform: scale(1.05);
     transition: .2s;
-
 }
 
 .menu a:hover {
@@ -26,7 +25,7 @@
 
 .menu {
     display: flex;
-    gap: 6rem;
+    gap: 5rem;
     width: 100vw;
     height: 70px;
     color: #FFFFFF;
@@ -55,4 +54,56 @@
 .github img {
     width: 3rem;
     max-height: 3rem;
+}
+
+.reference-content {
+    position: absolute;
+    top: 60px;
+    right: 200px;
+    width: min-content;
+    background-color: #fff;
+    display: none;
+    padding: 10px;
+    border: #000000;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.reference-content a {
+    word-wrap: break-word;
+    font-size: small;
+    color: #0c124b;
+}
+
+.reference-content a:hover {
+    color: crimson;
+}
+
+.reference button {
+    background-color: rgb(146, 133, 133);
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    height: 22px;
+    width: 160px;
+}
+
+
+
+  .reference #button-reference > span {
+    color: #fff;
+    font-family: "cinzel", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+}   
+
+.reference #button-reference > span:hover {
+    color: #000;
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+.rotate {
+    transform: rotate(-90deg);
 }

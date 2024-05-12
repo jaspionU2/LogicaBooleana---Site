@@ -15,6 +15,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <link rel="stylesheet" href="../css/page-trabalho.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/menu-style.css">
@@ -30,11 +33,25 @@
                     <li><a href="../page-content-html/page-george.html" target="_self">george</a></li>
                     <li><a href="page-trabalho.html" target="_self">trabalho</a></li>
                     <li><a href="../page-content-html/page-importancia.html" target="_self">importancia</a></li>
-                    <li><a href="../page-content-html/page-vide.html" target="_self">vida</a></li>
+                    <li>
+                        <div class="reference">
+                            <button id="button-reference"><span>Referencia </span><i class="fas fa-chevron-left"></i>
+                            </button>
+                            <div class="reference-content">
+                                <a href="https://pt.wikipedia.org/wiki/George_Boole" target="_blank"
+                                    rel="external">https://pt.wikipedia.org/wiki/George_Boole</a>
+                                <a href="https://www.ebiografia.com/george_boole/" target="_blank"
+                                    rel="external">https://www.ebiografia.com/george_boole/</a>
+                                <a href="https://brasilescola.uol.com.br/biografia/george-boole.htm" target="_blank"
+                                    rel="external">https://brasilescola.uol.com.br/biografia/george-boole.htm</a>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
                 <div class="github">
                     <img src="../img/git-icon.svg" alt="">
-                    <a href="https://github.com/jaspionU2/LogicaBooleana---Site.git" target="_blank" rel="external">github</a>
+                    <a href="https://github.com/jaspionU2/LogicaBooleana---Site.git" target="_blank"
+                        rel="external">github</a>
                 </div>
             </nav>
         </header>
@@ -54,7 +71,9 @@
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <p>O link para o video esta aqui: <a id="reference" href="https://www.youtube.com/watch?v=AvkzMOpmxgY&t=3s "target="_blank" rel="external">clique para ser reencaminhado</a></p>
+                    <p>O link para o video esta aqui: <a id="reference"
+                            href="https://www.youtube.com/watch?v=AvkzMOpmxgY&t=3s " target="_blank"
+                            rel="external">clique para ser reencaminhado</a></p>
                 </div>
                 <div class="sumario-video">
                     <h3>Resumo do conteúdo</h3>
@@ -67,7 +86,8 @@
                         distributiva <br> (x+y)´ = (x´.y´) / (x.y)´ = (x´+ y´) De Morgan <br> <br> <br> Exemplo: <br> (A
                         . B)
                         + (A . B´) + (A´ . B) = A . (B + B´) + (A´ . B´) = A . 1 + (A´ . B) <br> = A + (A´ . B) = (A +
-                        A´) . (A + B) = 1 . (A + B) = A + B</p>
+                        A´) . (A + B) = 1 . (A + B) = A + B
+                    </p>
                 </div>
             </section>
 
@@ -113,6 +133,8 @@
             <p>Copyright &lt;UNIME/&gt; 2024</p>
         </footer>
     </div>
+
+    <script src="../JS/button-reference.js"></script>
 </body>
 
 </html>
