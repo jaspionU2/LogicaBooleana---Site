@@ -104,6 +104,18 @@
     transition: .2s;
 }
 
+.reference i {
+    color: #c8ff00;
+}
+
 .rotate {
+    padding-top: 5px;
     transform: rotate(-90deg);
 }
+
+@media screen and (max-width: 500px) {
+    .navegacao {
+        color: #000;
+        display: none;
+     }
+ }
