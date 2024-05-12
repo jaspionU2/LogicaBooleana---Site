@@ -5,7 +5,10 @@
     background-size: 100vw 100vh;  
 }  
 
-
+.counter {
+    font-size: 24px;
+    color: #0300aa; 
+  }
 
 .hero-section {
     width: 80vw;
